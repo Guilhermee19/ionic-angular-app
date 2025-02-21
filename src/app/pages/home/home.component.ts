@@ -3,10 +3,9 @@ import { IonicModule } from '@ionic/angular';
 
 @Component({
   selector: 'app-home',
-  templateUrl: './home.component.html',
-  styleUrls: ['./home.component.scss'],
   standalone: true,
   imports: [IonicModule], // ✅ Adicionando IonicModule
+  templateUrl: './home.component.html',
 })
 export class HomeComponent  implements OnInit {
 
